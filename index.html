@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>ข้อมูลทะเบียนพาณิชย์</title>
+  <style>
+    :root {
+      --bg: #f4f4f4;
+      --card-bg: #e9e9e9;
+      --card-border: #bdbdbd;
+      --title-blue: #2f00ff;
+      --text: #111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      font-family: Tahoma, "Noto Sans Thai", sans-serif;
+      color: var(--text);
+      padding: 16px 0;
+    }
+
+    .page {
+      width: min(500px, calc(100vw - 12px));
+      min-height: 700px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: clamp(28px, 6vw, 60px) clamp(14px, 5vw, 44px) 40px;
+    }
+
+    .title {
+      margin: 0;
+      text-align: center;
+      color: var(--title-blue);
+      line-height: 1.34;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .title.main {
+      font-size: clamp(23px, 7vw, 38px);
+      text-decoration: underline;
+      margin-bottom: 6px;
+    }
+
+    .title.sub {
+      font-size: clamp(18px, 5.6vw, 31px);
+      margin-bottom: 4px;
+    }
+
+    .title.data {
+      font-size: clamp(21px, 6.2vw, 34px);
+      margin-bottom: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: clamp(14px, 4.4vw, 28px);
+      line-height: 1.58;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 3px 0;
+    }
+
+    td.label {
+      width: 44%;
+      text-align: right;
+      padding-right: 14px;
+      white-space: nowrap;
+    }
+
+    td.value {
+      width: 56%;
+      word-break: break-word;
+    }
+
+    .value strong {
+      font-weight: 700;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1 class="title main">อบต.ปากเพรียว</h1>
+    <h2 class="title sub">ระบบจดทะเบียนพาณิชย์ (ตรวจสอบข้อมูล QR CODE)</h2>
+    <h2 class="title data">ข้อมูลทะเบียนพาณิชย์</h2>
+
+    <table>
+      <tr>
+        <td class="label">ทะเบียนเลขที่:</td>
+        <td class="value">1410700067641</td>
+      </tr>
+      <tr>
+        <td class="label">เลขคำขอจัดตั้งเลขที่:</td>
+        <td class="value">621251000045</td>
+      </tr>
+      <tr>
+        <td class="label">คำขอเปลี่ยนแปลงเลขที่:</td>
+        <td class="value"></td>
+      </tr>
+      <tr>
+        <td class="label">ชื่อผู้ประกอบพาณิชย์กิจ:</td>
+        <td class="value">นางสาว ญาณิฉัฏ คำละเอียด</td>
+      </tr>
+      <tr>
+        <td class="label">จดทะเบียน เมื่อวันที่:</td>
+        <td class="value">2 ธันวาคม พ.ศ. 2567</td>
+      </tr>
+      <tr>
+        <td class="label">ชื่อพาณิชย์กิจ:</td>
+        <td class="value">เซอร์ริตี้ดูโอ</td>
+      </tr>
+      <tr>
+        <td class="label">ชนิดแห่งพาณิชย์กิจ:</td>
+        <td class="value">จำหน่ายเสื้อผ้าแฟชั่น และเสริมความงาม</td>
+      </tr>
+      <tr>
+        <td class="label">ที่ตั้งสำนักงานใหญ่:</td>
+        <td class="value">เลขที่ 257/43 ตำบลปากเพรียว อำเภอเมือง จังหวัดสระบุรี 18000</td>
+      </tr>
+      <tr>
+        <td class="label">นายทะเบียนพาณิชย์:</td>
+        <td class="value">นางรุ่งทิพฯ ชาญชูสงคร</td>
+      </tr>
+      <tr>
+        <td class="label">สำนักงานจดทะเบียน:</td>
+        <td class="value">เทศบาลตำบลปากเพรียว</td>
+      </tr>
+      <tr>
+        <td class="label">สถานะทะเบียนพาณิชย์:</td>
+        <td class="value">ดำเนินกิจการอยู่(ข้อมูลเป็น ปัจจุบัน)</td>
+      </tr>
+      <tr>
+        <td class="label">ชื่อเว็บไซต์:</td>
+        <td class="value"><strong>No records found.</strong></td>
+      </tr>
+    </table>
+  </main>
+</body>
+</html>
